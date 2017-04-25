@@ -18,5 +18,8 @@
         "psr-4" : {
             "Lshorz\\Lavatar\\" : "src/"
         }
-    }
+    },
+    "files" : [
+        "src/helpers.php"
+    ]
 }
