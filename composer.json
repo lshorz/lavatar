@@ -1,0 +1,22 @@
+{
+    "name": "lshorz/lavatar",
+    "description": "Create awesome unique avatar for Laravel5.4",
+    "keywords": ["Laravel", "avatar", "identicon", "image"],
+    "authors": [
+        {
+            "name": "Marven Liao",
+            "email": "lshzhuhai@163.com"
+        }
+    ],
+    "license":"MIT",
+    "require": {
+        "php" : ">=5.6",
+        "illuminate/support": "~5.0",
+        "yzalis/identicon" : "~1.1"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Lshorz\\Lavatar\\" : "src/"
+        }
+    }
+}
