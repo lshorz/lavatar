@@ -1,5 +1,7 @@
 # Lavtar
 
+Create awesome unique avatar for Laravel5.4
+
 ## perview
 
 ![Preview](https://raw.githubusercontent.com/lshorz/md_images/master/hello.png)
