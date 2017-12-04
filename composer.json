@@ -1,6 +1,6 @@
 {
     "name": "lshorz/lavatar",
-    "description": "Create awesome unique avatar for Laravel5.4",
+    "description": "Create awesome unique avatar for Laravel5.5",
     "keywords": ["Laravel", "avatar", "identicon", "image"],
     "authors": [
         {
@@ -10,9 +10,9 @@
     ],
     "license":"MIT",
     "require": {
-        "php" : ">=5.6",
-        "illuminate/support": "~5.0",
-        "yzalis/identicon" : "~1.1"
+        "php" : ">=7.0",
+        "laravel/framework": "^5.5",
+        "yzalis/identicon" : "~1.2"
     },
     "autoload" : {
         "psr-4" : {
@@ -21,5 +21,15 @@
         "files" : [
             "src/helpers.php"
         ]
+    },
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Lshorz\\Lavatar\\LavatarServiceProvider"
+            ],
+            "aliases": {
+                "JWT": "Lshorz\\Lavatar\\Facades\\Lavatar"
+            }
+        }
     }
 }
