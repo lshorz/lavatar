@@ -28,7 +28,7 @@
                 "Lshorz\\Lavatar\\LavatarServiceProvider"
             ],
             "aliases": {
-                "JWT": "Lshorz\\Lavatar\\Facades\\Lavatar"
+                "Lavatar": "Lshorz\\Lavatar\\Facades\\Lavatar"
             }
         }
     }
