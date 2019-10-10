@@ -1,6 +1,6 @@
 {
     "name": "lshorz/lavatar",
-    "description": "Create awesome unique avatar for Laravel5.5",
+    "description": "Create awesome unique avatar for Laravel",
     "keywords": ["Laravel", "avatar", "identicon", "image"],
     "authors": [
         {
@@ -11,7 +11,6 @@
     "license":"MIT",
     "require": {
         "php" : ">=7.0",
-        "laravel/framework": "^5.5",
         "yzalis/identicon" : "~1.2"
     },
     "autoload" : {
